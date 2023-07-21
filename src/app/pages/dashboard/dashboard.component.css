@@ -1,0 +1,81 @@
+:host { 
+  display: contents; 
+}
+.dashboard-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dashboard-container1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dashboard-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dashboard-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.dashboard-container4 {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.dashboard-container5 {
+  gap: var(--dl-space-space-threeunits);
+  flex: 1;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+}
+.dashboard-navlink {
+  display: contents;
+}
+.dashboard-component2 {
+  text-decoration: none;
+}
+.dashboard-navlink1 {
+  display: contents;
+}
+.dashboard-component3 {
+  text-decoration: none;
+}
+.dashboard-navlink2 {
+  display: contents;
+}
+.dashboard-component4 {
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .dashboard-container5 {
+    align-items: center;
+    flex-direction: column;
+  }
+}

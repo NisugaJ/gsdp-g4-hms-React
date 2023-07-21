@@ -1,0 +1,66 @@
+<div class="side-nav-bar-links-container" [ngClass]="rootClassName">
+  <div class="side-nav-bar-links-container1">
+    <div class="side-nav-bar-links-container2">
+      <a routerLink="/dashboard" class="side-nav-bar-links-navlink button">
+        {{ button }}
+      </a>
+    </div>
+    <div class="side-nav-bar-links-container3">
+      <a routerLink="/patients" class="side-nav-bar-links-navlink1">
+        <side-nav-main-button
+          button="Patients"
+          class="side-nav-bar-links-component"
+        ></side-nav-main-button>
+      </a>
+      <a routerLink="/admission" class="side-nav-bar-links-navlink2">
+        <side-nav-sub-button
+          button="Admission/Discharge"
+          class="side-nav-bar-links-component01"
+        ></side-nav-sub-button>
+      </a>
+      <a routerLink="/admit-or-transfer" class="side-nav-bar-links-navlink3">
+        <side-nav-sub-button
+          button="Admit/Transfer"
+          class="side-nav-bar-links-component02"
+        ></side-nav-sub-button>
+      </a>
+      <a routerLink="/treatment-records" class="side-nav-bar-links-navlink4">
+        <side-nav-sub-button
+          button="Treatment Records"
+          class="side-nav-bar-links-component03"
+        ></side-nav-sub-button>
+      </a>
+    </div>
+    <div class="side-nav-bar-links-container4">
+      <a routerLink="/doctors" class="side-nav-bar-links-navlink5">
+        <side-nav-main-button
+          button="Doctors"
+          rootClassName="side-nav-main-button-root-class-name1"
+          class="side-nav-bar-links-component04"
+        ></side-nav-main-button>
+      </a>
+      <a routerLink="/register-doctor" class="side-nav-bar-links-navlink6">
+        <side-nav-sub-button
+          button="Register"
+          class="side-nav-bar-links-component05"
+        ></side-nav-sub-button>
+      </a>
+      <side-nav-sub-button button="Teams"></side-nav-sub-button>
+    </div>
+    <div class="side-nav-bar-links-container5">
+      <a routerLink="/wards" class="side-nav-bar-links-navlink7">
+        <side-nav-main-button
+          button="Wards"
+          class="side-nav-bar-links-component07"
+        ></side-nav-main-button>
+      </a>
+      <side-nav-sub-button button="Ward Types"></side-nav-sub-button>
+      <side-nav-sub-button button="Ward Availability"></side-nav-sub-button>
+    </div>
+    <div class="side-nav-bar-links-container6">
+      <side-nav-main-button button="Admin"></side-nav-main-button>
+      <side-nav-sub-button button="Activity Log"></side-nav-sub-button>
+      <side-nav-sub-button button="Settings"></side-nav-sub-button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+:host { 
+  display: contents; 
+}
+.side-nav-sub-button-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.side-nav-sub-button-button {
+  width: 100%;
+  font-size: 16px;
+  text-align: left;
+  border-color: var(--dl-color-secondary-2);
+  border-width: 2px;
+  border-radius: 8px;
+}

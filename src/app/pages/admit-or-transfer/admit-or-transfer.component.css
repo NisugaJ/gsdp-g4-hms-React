@@ -1,0 +1,278 @@
+:host { 
+  display: contents; 
+}
+.admit-or-transfer-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admit-or-transfer-container01 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admit-or-transfer-container02 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admit-or-transfer-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.admit-or-transfer-container04 {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.admit-or-transfer-container05 {
+  flex: 1;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admit-or-transfer-container06 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admit-or-transfer-container07 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admit-or-transfer-text {
+  color: var(--dl-color-primary-1);
+  font-size: 28px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+.admit-or-transfer-container08 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+}
+.admit-or-transfer-container09 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-end;
+}
+.admit-or-transfer-container10 {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.admit-or-transfer-text1 {
+  color: var(--dl-color-primary-1);
+  width: auto;
+  text-align: left;
+}
+.admit-or-transfer-select {
+  flex: 1;
+  width: 100%;
+  padding: var(--dl-space-space-unit);
+}
+.admit-or-transfer-container11 {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.admit-or-transfer-text2 {
+  color: var(--dl-color-primary-1);
+  width: auto;
+  text-align: center;
+}
+.admit-or-transfer-select1 {
+  padding: var(--dl-space-space-unit);
+}
+.admit-or-transfer-container12 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.admit-or-transfer-container13 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.admit-or-transfer-code-embed {
+  flex: 1;
+  width: 100%;
+  align-self: stretch;
+}
+.admit-or-transfer-container14 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.admit-or-transfer-container15 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.admit-or-transfer-container16 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admit-or-transfer-container17 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.admit-or-transfer-text3 {
+  color: var(--dl-color-primary-1);
+  width: auto;
+  text-align: left;
+}
+.admit-or-transfer-container18 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.admit-or-transfer-text4 {
+  color: var(--dl-color-primary-1);
+  width: auto;
+  text-align: left;
+}
+.admit-or-transfer-select2 {
+  padding: var(--dl-space-space-unit);
+}
+.admit-or-transfer-container19 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admit-or-transfer-container20 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.admit-or-transfer-text5 {
+  color: var(--dl-color-primary-1);
+  width: auto;
+  text-align: left;
+}
+.admit-or-transfer-container21 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.admit-or-transfer-text6 {
+  color: var(--dl-color-primary-1);
+  width: auto;
+  text-align: left;
+}
+.admit-or-transfer-container22 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.admit-or-transfer-icon {
+  width: 24px;
+  height: 24px;
+}
+.admit-or-transfer-container23 {
+  width: 252px;
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+@media(max-width: 991px) {
+  .admit-or-transfer-container05 {
+    align-items: center;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,40 @@
+:host { 
+  display: contents; 
+}
+.dashboard-item-container {
+  display: flex;
+  position: relative;
+}
+.dashboard-item-container1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-item-button {
+  color: var(--dl-color-primary-1);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-twounits);
+  border-color: var(--dl-color-secondary-2);
+  padding-left: var(--dl-space-space-threeunits);
+  border-radius: Radius6;
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  border-bottom-width: 4px;
+}
+.dashboard-item-container2 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-item-text {
+  font-size: 36px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+}
+.dashboard-item-text1 {
+  font-size: 24px;
+  text-align: center;
+}

@@ -1,0 +1,62 @@
+:host { 
+  display: contents; 
+}
+.logo-and-name-container {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.logo-and-name-image {
+  width: 70px;
+  height: 100%;
+  object-fit: cover;
+}
+.logo-and-name-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.logo-and-name-text {
+  color: var(--dl-color-primary-1);
+  font-size: 32px;
+  align-self: center;
+  text-align: center;
+  font-family: Barlow;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+
+
+@media(max-width: 991px) {
+  .logo-and-name-image {
+    width: 60px;
+  }
+}
+@media(max-width: 767px) {
+  .logo-and-name-container {
+    width: auto;
+  }
+  .logo-and-name-image {
+    width: 25%;
+  }
+  .logo-and-name-root-class-name2 {
+    width: var(--dl-size-size-medium);
+  }
+}
+@media(max-width: 479px) {
+  .logo-and-name-container {
+    width: 100%;
+  }
+  .logo-and-name-image {
+    width: 20%;
+  }
+}

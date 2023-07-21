@@ -1,0 +1,76 @@
+<div class="top-nav-bar-container" [ngClass]="rootClassName">
+  <header data-thq="thq-navbar" class="top-nav-bar-navbar-interactive">
+    <div data-thq="thq-navbar-nav" class="top-nav-bar-desktop-menu">
+      <a routerLink="/dashboard" class="top-nav-bar-navlink">
+        <logo-and-name
+          rootClassName="logo-and-name-root-class-name"
+          class="top-nav-bar-component"
+        ></logo-and-name>
+      </a>
+      <div class="top-nav-bar-buttons">
+        <span class="top-nav-bar-text">Selena Jones</span>
+        <img
+          [attr.alt]="image_alt"
+          src="/assets/dummy-profile-icon-200h.png"
+          class="top-nav-bar-image"
+        />
+      </div>
+    </div>
+    <div data-thq="thq-burger-menu" class="top-nav-bar-burger-menu">
+      <svg viewBox="0 0 1024 1024" class="top-nav-bar-icon">
+        <path
+          d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+        ></path>
+      </svg>
+    </div>
+    <div data-thq="thq-mobile-menu" class="top-nav-bar-mobile-menu">
+      <div class="top-nav-bar-top">
+        <div class="top-nav-bar-container1">
+          <div class="top-nav-bar-container2">
+            <img
+              [attr.alt]="image_alt3"
+              [attr.src]="image_src2"
+              class="top-nav-bar-image1"
+            />
+            <div class="top-nav-bar-container3">
+              <h1 class="top-nav-bar-text1 Heading">{{ heading }}</h1>
+              <span>{{ text }}</span>
+            </div>
+          </div>
+        </div>
+        <div data-thq="thq-close-menu" class="top-nav-bar-close-menu"></div>
+        <svg viewBox="0 0 1024 1024" class="top-nav-bar-icon2">
+          <path
+            d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+          ></path>
+        </svg>
+      </div>
+      <div class="top-nav-bar-nav">
+        <div class="top-nav-bar-buttons1">
+          <img
+            [attr.alt]="image_alt1"
+            src="/assets/dummy-profile-icon-200h.png"
+            class="top-nav-bar-image2"
+          />
+          <span class="top-nav-bar-text3">Morgan Jones</span>
+        </div>
+        <div class="top-nav-bar-container4">
+          <a routerLink="/dashboard" class="top-nav-bar-navlink1">
+            <primary-button
+              button="View Profile"
+              rootClassName="primary-button-root-class-name2"
+              class="top-nav-bar-component1"
+            ></primary-button>
+          </a>
+          <a routerLink="/" class="top-nav-bar-navlink2">
+            <primary-button
+              button="Log out"
+              rootClassName="primary-button-root-class-name3"
+              class="top-nav-bar-component2"
+            ></primary-button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>

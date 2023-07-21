@@ -1,0 +1,369 @@
+:host { 
+  display: contents; 
+}
+.text-input-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.text-input-textinput {
+  width: 100%;
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.text-input-root-class-name {
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+
+
+
+.text-input-root-class-name4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.text-input-root-class-name5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.text-input-root-class-name6 {
+  width: 60%;
+}
+.text-input-root-class-name7 {
+  width: 60%;
+}
+.text-input-root-class-name8 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name9 {
+  width: 60%;
+}
+.text-input-root-class-name10 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name11 {
+  left: 69px;
+  width: 100%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name12 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name13 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name14 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name15 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name16 {
+  width: 60%;
+}
+.text-input-root-class-name17 {
+  width: 60%;
+}
+.text-input-root-class-name18 {
+  width: 60%;
+}
+.text-input-root-class-name19 {
+  width: 60%;
+}
+.text-input-root-class-name20 {
+  width: 60%;
+}
+.text-input-root-class-name21 {
+  left: 69px;
+  width: 100%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name22 {
+  left: 69px;
+  width: 100%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name23 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name24 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name25 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name26 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name27 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name28 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name29 {
+  width: 60%;
+}
+.text-input-root-class-name30 {
+  width: 60%;
+}
+.text-input-root-class-name31 {
+  width: 60%;
+}
+.text-input-root-class-name32 {
+  width: 60%;
+}
+.text-input-root-class-name33 {
+  width: 60%;
+}
+.text-input-root-class-name34 {
+  left: 69px;
+  width: 100%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name35 {
+  left: 69px;
+  width: 100%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name36 {
+  left: 69px;
+  width: 100%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+
+.text-input-root-class-name38 {
+  left: 69px;
+  width: 100%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name39 {
+  width: 60%;
+}
+.text-input-root-class-name40 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name41 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name42 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name43 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name44 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name45 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name46 {
+  width: 60%;
+}
+.text-input-root-class-name47 {
+  width: 60%;
+}
+.text-input-root-class-name48 {
+  width: 60%;
+}
+.text-input-root-class-name49 {
+  width: 60%;
+}
+.text-input-root-class-name50 {
+  width: 60%;
+}
+.text-input-root-class-name51 {
+  left: 69px;
+  width: 100%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name52 {
+  left: 69px;
+  width: 100%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name53 {
+  left: 69px;
+  width: 100%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+
+.text-input-root-class-name55 {
+  width: 60%;
+}
+.text-input-root-class-name56 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name57 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name58 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name59 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name60 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name61 {
+  left: 69px;
+  width: 60%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name62 {
+  width: 60%;
+}
+.text-input-root-class-name63 {
+  width: 60%;
+}
+.text-input-root-class-name64 {
+  width: 60%;
+}
+.text-input-root-class-name65 {
+  width: 60%;
+}
+.text-input-root-class-name66 {
+  width: 60%;
+}
+.text-input-root-class-name67 {
+  left: 69px;
+  width: 100%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name68 {
+  left: 69px;
+  width: 100%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
+.text-input-root-class-name69 {
+  left: 69px;
+  width: 100%;
+  bottom: 8px;
+  position: static;
+  align-self: center;
+}
