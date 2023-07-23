@@ -7,7 +7,6 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['register-doctor.component.css'],
 })
 export class RegisterDoctor {
-  raw1bh6: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('RegisterDoctor - gsdp-g4-hms')
     this.meta.addTags([

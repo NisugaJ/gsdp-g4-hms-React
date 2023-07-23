@@ -59,6 +59,11 @@
   align-self: center;
   text-align: center;
 }
+.login-form {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
 .login-container5 {
   flex: 0 0 auto;
   width: 100%;
@@ -68,10 +73,25 @@
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
 }
+.login-container6 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.login-textinput {
+  width: 100%;
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius8);
+}
 .login-navlink {
   display: contents;
 }
-.login-component2 {
+.login-component1 {
   text-decoration: none;
 }
 .login-navlink1 {

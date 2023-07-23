@@ -25,7 +25,7 @@
                   </option>
                   <option value="Orthopedic Ward ">
                     Orthopedic Ward
-                    <span [innerHTML]="rawutbr"></span>
+                    <span [innerHTML]="rawsvc0"></span>
                   </option>
                   <option value="Cardiology Ward">Cardiology Ward</option>
                   <option value="Maternity Ward﻿">Maternity Ward﻿</option>
@@ -94,56 +94,55 @@
                 </div>
               </div>
             </div>
-            <div class="admit-or-transfer-container14">
-              <div class="admit-or-transfer-container15">
-                <div class="admit-or-transfer-container16">
-                  <div class="admit-or-transfer-container17">
-                    <span class="admit-or-transfer-text3">
-                      Patient&apos;s registration Number
-                    </span>
-                    <text-input
-                      rootClassName="text-input-root-class-name39"
-                    ></text-input>
-                  </div>
-                  <div class="admit-or-transfer-container18">
-                    <span class="admit-or-transfer-text4">Tranfer to</span>
-                    <select class="admit-or-transfer-select2">
-                      <option value="F-08" selected>F-08</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="admit-or-transfer-container19">
-                  <div class="admit-or-transfer-container20">
-                    <span class="admit-or-transfer-text5">Current Ward</span>
-                    <text-input
-                      rootClassName="text-input-root-class-name46"
-                    ></text-input>
-                  </div>
-                  <div class="admit-or-transfer-container21">
-                    <span class="admit-or-transfer-text6">Transfer Date</span>
-                    <div class="admit-or-transfer-container22">
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        class="admit-or-transfer-icon"
-                      >
-                        <path
-                          d="M810.667 263.851v-7.851c0-70.699-57.301-128-128-128s-128 57.301-128 128h-85.333c0-70.699-57.301-128-128-128s-128 57.301-128 128v7.851c-49.536 17.707-85.333 64.597-85.333 120.149v384c0 70.571 57.429 128 128 128h512c70.571 0 128-57.429 128-128v-384c0-55.552-35.797-102.443-85.333-120.149zM640 256c0-23.552 19.072-42.667 42.667-42.667s42.667 19.115 42.667 42.667v85.333c0 23.552-19.072 42.667-42.667 42.667s-42.667-19.115-42.667-42.667v-85.333zM298.667 256c0-23.552 19.072-42.667 42.667-42.667s42.667 19.115 42.667 42.667v85.333c0 23.552-19.072 42.667-42.667 42.667s-42.667-19.115-42.667-42.667v-85.333zM810.667 768c0 23.509-19.115 42.667-42.667 42.667h-512c-23.552 0-42.667-19.157-42.667-42.667v-256h597.333v256z"
-                        ></path>
-                      </svg>
+            <form class="admit-or-transfer-form">
+              <div class="admit-or-transfer-container14">
+                <div class="admit-or-transfer-container15">
+                  <div class="admit-or-transfer-container16">
+                    <div class="admit-or-transfer-container17">
+                      <span class="admit-or-transfer-text3">
+                        Patient&apos;s registration Number
+                      </span>
                       <text-input
-                        rootClassName="text-input-root-class-name38"
+                        rootClassName="text-input-root-class-name39"
                       ></text-input>
+                    </div>
+                    <div class="admit-or-transfer-container18">
+                      <span class="admit-or-transfer-text4">Tranfer to</span>
+                      <select required class="admit-or-transfer-select2">
+                        <option value="F-08" selected>F-08</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="admit-or-transfer-container19">
+                    <div class="admit-or-transfer-container20">
+                      <span class="admit-or-transfer-text5">Current Ward</span>
+                      <text-input
+                        rootClassName="text-input-root-class-name46"
+                      ></text-input>
+                    </div>
+                    <div class="admit-or-transfer-container21">
+                      <span class="admit-or-transfer-text6">Transfer Date</span>
+                      <div class="admit-or-transfer-container22">
+                        <div class="admit-or-transfer-container23">
+                          <input
+                            type="date"
+                            required
+                            placeholder
+                            class="admit-or-transfer-textinput input"
+                          />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="admit-or-transfer-container23">
-            <primary-button
-              button="Transfer"
-              rootClassName="primary-button-root-class-name12"
-            ></primary-button>
+              <div class="admit-or-transfer-container24">
+                <primary-button
+                  button="Transfer"
+                  rootClassName="primary-button-root-class-name12"
+                ></primary-button>
+              </div>
+            </form>
           </div>
         </div>
       </div>

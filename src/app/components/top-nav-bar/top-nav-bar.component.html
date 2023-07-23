@@ -8,16 +8,63 @@
         ></logo-and-name>
       </a>
       <div class="top-nav-bar-buttons">
-        <span class="top-nav-bar-text">Selena Jones</span>
-        <img
-          [attr.alt]="image_alt"
-          src="/assets/dummy-profile-icon-200h.png"
-          class="top-nav-bar-image"
-        />
+        <div data-thq="thq-dropdown" class="top-nav-bar-thq-dropdown list-item">
+          <div
+            data-thq="thq-dropdown-toggle"
+            class="top-nav-bar-dropdown-toggle"
+          >
+            <span class="top-nav-bar-text">Selena Jones</span>
+            <div
+              data-thq="thq-dropdown-arrow"
+              class="top-nav-bar-dropdown-arrow"
+            >
+              <svg viewBox="0 0 1024 1024" class="top-nav-bar-icon">
+                <path d="M426 726v-428l214 214z"></path>
+              </svg>
+            </div>
+            <img
+              [attr.alt]="image_alt"
+              src="/assets/dummy-profile-icon-200h.png"
+              class="top-nav-bar-image"
+            />
+          </div>
+          <ul data-thq="thq-dropdown-list" class="top-nav-bar-dropdown-list">
+            <li data-thq="thq-dropdown" class="top-nav-bar-dropdown list-item">
+              <a routerLink="/settings">
+                <div
+                  data-thq="thq-dropdown-toggle"
+                  class="top-nav-bar-dropdown-toggle1"
+                >
+                  <span class="top-nav-bar-text1">Settings</span>
+                </div>
+              </a>
+            </li>
+            <li data-thq="thq-dropdown" class="top-nav-bar-dropdown1 list-item">
+              <a routerLink="/activity-log">
+                <div
+                  data-thq="thq-dropdown-toggle"
+                  class="top-nav-bar-dropdown-toggle2"
+                >
+                  <span class="top-nav-bar-text2">Activity Log</span>
+                </div>
+              </a>
+            </li>
+            <li data-thq="thq-dropdown" class="top-nav-bar-dropdown2 list-item">
+              <a routerLink="/">
+                <div
+                  data-thq="thq-dropdown-toggle"
+                  class="top-nav-bar-dropdown-toggle3"
+                >
+                  <span class="top-nav-bar-text3">Log out</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <div data-thq="thq-burger-menu" class="top-nav-bar-burger-menu">
-      <svg viewBox="0 0 1024 1024" class="top-nav-bar-icon">
+      <svg viewBox="0 0 1024 1024" class="top-nav-bar-icon2">
         <path
           d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
         ></path>
@@ -33,13 +80,13 @@
               class="top-nav-bar-image1"
             />
             <div class="top-nav-bar-container3">
-              <h1 class="top-nav-bar-text1 Heading">{{ heading }}</h1>
+              <h1 class="top-nav-bar-text4 Heading">{{ heading }}</h1>
               <span>{{ text }}</span>
             </div>
           </div>
         </div>
         <div data-thq="thq-close-menu" class="top-nav-bar-close-menu"></div>
-        <svg viewBox="0 0 1024 1024" class="top-nav-bar-icon2">
+        <svg viewBox="0 0 1024 1024" class="top-nav-bar-icon4">
           <path
             d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
           ></path>
@@ -52,17 +99,17 @@
             src="/assets/dummy-profile-icon-200h.png"
             class="top-nav-bar-image2"
           />
-          <span class="top-nav-bar-text3">Morgan Jones</span>
+          <span class="top-nav-bar-text6">Morgan Jones</span>
         </div>
         <div class="top-nav-bar-container4">
-          <a routerLink="/dashboard" class="top-nav-bar-navlink1">
+          <a routerLink="/dashboard" class="top-nav-bar-navlink4">
             <primary-button
               button="View Profile"
               rootClassName="primary-button-root-class-name2"
               class="top-nav-bar-component1"
             ></primary-button>
           </a>
-          <a routerLink="/" class="top-nav-bar-navlink2">
+          <a routerLink="/" class="top-nav-bar-navlink5">
             <primary-button
               button="Log out"
               rootClassName="primary-button-root-class-name3"

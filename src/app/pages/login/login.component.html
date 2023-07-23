@@ -12,27 +12,37 @@
           <span>Hospital Management System</span>
         </div>
       </div>
-      <div class="login-container5">
-        <text-input
-          rootClassName="text-input-root-class-name"
-          textinput_placeholder="Username"
-        ></text-input>
-        <text-input textinput_placeholder="Password"></text-input>
-        <a routerLink="/dashboard" class="login-navlink">
-          <primary-button
-            button="Log in"
-            rootClassName="primary-button-root-class-name1"
-            class="login-component2"
-          ></primary-button>
-        </a>
-        <a
-          routerLink="/forgot-password"
-          link="www.google.com"
-          class="login-navlink1 Content"
-        >
-          Forgot password?
-        </a>
-      </div>
+      <form class="login-form">
+        <div class="login-container5">
+          <text-input
+            rootClassName="text-input-root-class-name"
+            textinput_placeholder="Username"
+            textinput_placeholder1="Username"
+          ></text-input>
+          <div class="login-container6">
+            <input
+              type="password"
+              required
+              placeholder="Password"
+              class="login-textinput input"
+            />
+          </div>
+          <a routerLink="/dashboard" class="login-navlink">
+            <primary-button
+              button="Log in"
+              rootClassName="primary-button-root-class-name1"
+              class="login-component1"
+            ></primary-button>
+          </a>
+          <a
+            routerLink="/forgot-password"
+            link="www.google.com"
+            class="login-navlink1 Content"
+          >
+            Forgot password?
+          </a>
+        </div>
+      </form>
     </div>
   </div>
 </div>

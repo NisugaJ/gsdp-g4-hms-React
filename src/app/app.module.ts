@@ -31,6 +31,13 @@ const routes = [
       ),
   },
   {
+    path: 'ward-availability',
+    loadChildren: () =>
+      import('./pages/ward-availability/ward-availability.module').then(
+        (m) => m.WardAvailabilityModule
+      ),
+  },
+  {
     path: 'discharge',
     loadChildren: () =>
       import('./pages/discharge/discharge.module').then(
@@ -64,6 +71,44 @@ const routes = [
       ),
   },
   {
+    path: 'ward-types',
+    loadChildren: () =>
+      import('./pages/ward-types/ward-types.module').then(
+        (m) => m.WardTypesModule
+      ),
+  },
+  {
+    path: 'register-doctor',
+    loadChildren: () =>
+      import('./pages/register-doctor/register-doctor.module').then(
+        (m) => m.RegisterDoctorModule
+      ),
+  },
+  {
+    path: 'teams',
+    loadChildren: () =>
+      import('./pages/teams/teams.module').then((m) => m.TeamsModule),
+  },
+  {
+    path: 'settings',
+    loadChildren: () =>
+      import('./pages/settings/settings.module').then((m) => m.SettingsModule),
+  },
+  {
+    path: 'patients-cared-by-a-team',
+    loadChildren: () =>
+      import(
+        './pages/patients-cared-by-a-team/patients-cared-by-a-team.module'
+      ).then((m) => m.PatientsCaredByATeamModule),
+  },
+  {
+    path: 'activity-log',
+    loadChildren: () =>
+      import('./pages/activity-log/activity-log.module').then(
+        (m) => m.ActivityLogModule
+      ),
+  },
+  {
     path: 'treatment-records',
     loadChildren: () =>
       import('./pages/treatment-records/treatment-records.module').then(
@@ -74,13 +119,6 @@ const routes = [
     path: '',
     loadChildren: () =>
       import('./pages/login/login.module').then((m) => m.LoginModule),
-  },
-  {
-    path: 'register-doctor',
-    loadChildren: () =>
-      import('./pages/register-doctor/register-doctor.module').then(
-        (m) => m.RegisterDoctorModule
-      ),
   },
 ]
 

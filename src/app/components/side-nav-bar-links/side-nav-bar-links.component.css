@@ -42,25 +42,25 @@
   flex-direction: column;
   justify-content: center;
 }
-.side-nav-bar-links-navlink1 {
+.side-nav-bar-links-navlink01 {
   display: contents;
 }
 .side-nav-bar-links-component {
   text-decoration: none;
 }
-.side-nav-bar-links-navlink2 {
+.side-nav-bar-links-navlink02 {
   display: contents;
 }
 .side-nav-bar-links-component01 {
   text-decoration: none;
 }
-.side-nav-bar-links-navlink3 {
+.side-nav-bar-links-navlink03 {
   display: contents;
 }
 .side-nav-bar-links-component02 {
   text-decoration: none;
 }
-.side-nav-bar-links-navlink4 {
+.side-nav-bar-links-navlink04 {
   display: contents;
 }
 .side-nav-bar-links-component03 {
@@ -74,16 +74,22 @@
   flex-direction: column;
   justify-content: center;
 }
-.side-nav-bar-links-navlink5 {
+.side-nav-bar-links-navlink05 {
   display: contents;
 }
 .side-nav-bar-links-component04 {
   text-decoration: none;
 }
-.side-nav-bar-links-navlink6 {
+.side-nav-bar-links-navlink06 {
   display: contents;
 }
 .side-nav-bar-links-component05 {
+  text-decoration: none;
+}
+.side-nav-bar-links-navlink07 {
+  display: contents;
+}
+.side-nav-bar-links-component06 {
   text-decoration: none;
 }
 .side-nav-bar-links-container5 {
@@ -94,10 +100,22 @@
   flex-direction: column;
   justify-content: center;
 }
-.side-nav-bar-links-navlink7 {
+.side-nav-bar-links-navlink08 {
   display: contents;
 }
 .side-nav-bar-links-component07 {
+  text-decoration: none;
+}
+.side-nav-bar-links-navlink09 {
+  display: contents;
+}
+.side-nav-bar-links-component08 {
+  text-decoration: none;
+}
+.side-nav-bar-links-navlink10 {
+  display: contents;
+}
+.side-nav-bar-links-component09 {
   text-decoration: none;
 }
 .side-nav-bar-links-container6 {
@@ -107,6 +125,18 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+.side-nav-bar-links-navlink11 {
+  display: contents;
+}
+.side-nav-bar-links-component11 {
+  text-decoration: none;
+}
+.side-nav-bar-links-navlink12 {
+  display: contents;
+}
+.side-nav-bar-links-component12 {
+  text-decoration: none;
 }
 
 

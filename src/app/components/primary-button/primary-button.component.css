@@ -58,6 +58,14 @@
   width: auto;
 }
 
+
+.primary-button-root-class-name18 {
+  width: var(--dl-size-size-medium);
+}
+.primary-button-root-class-name19 {
+  width: var(--dl-size-size-medium);
+}
+
 @media(max-width: 767px) {
   .primary-button-root-class-name2 {
     margin-top: 0px;

@@ -19,152 +19,153 @@
               </a>
             </div>
           </div>
-          <div class="admission-container08">
-            <div class="admission-container09">
-              <div class="admission-container10">
-                <span class="admission-text">Title</span>
-                <text-input
-                  rootClassName="text-input-root-class-name6"
-                ></text-input>
-              </div>
-              <div class="admission-container11">
-                <span class="admission-text01">Full Name</span>
-                <text-input
-                  rootClassName="text-input-root-class-name8"
-                ></text-input>
-              </div>
-              <div class="admission-container12">
-                <span class="admission-text02">Gender</span>
-                <text-input
-                  rootClassName="text-input-root-class-name13"
-                ></text-input>
-              </div>
-              <div class="admission-container13">
-                <span class="admission-text03">Gender</span>
-                <text-input
-                  rootClassName="text-input-root-class-name12"
-                ></text-input>
-              </div>
-              <div class="admission-container14">
-                <span class="admission-text04">DOB</span>
-                <div class="admission-container15">
-                  <svg viewBox="0 0 1024 1024" class="admission-icon">
-                    <path
-                      d="M810.667 263.851v-7.851c0-70.699-57.301-128-128-128s-128 57.301-128 128h-85.333c0-70.699-57.301-128-128-128s-128 57.301-128 128v7.851c-49.536 17.707-85.333 64.597-85.333 120.149v384c0 70.571 57.429 128 128 128h512c70.571 0 128-57.429 128-128v-384c0-55.552-35.797-102.443-85.333-120.149zM640 256c0-23.552 19.072-42.667 42.667-42.667s42.667 19.115 42.667 42.667v85.333c0 23.552-19.072 42.667-42.667 42.667s-42.667-19.115-42.667-42.667v-85.333zM298.667 256c0-23.552 19.072-42.667 42.667-42.667s42.667 19.115 42.667 42.667v85.333c0 23.552-19.072 42.667-42.667 42.667s-42.667-19.115-42.667-42.667v-85.333zM810.667 768c0 23.509-19.115 42.667-42.667 42.667h-512c-23.552 0-42.667-19.157-42.667-42.667v-256h597.333v256z"
-                    ></path>
-                  </svg>
+          <form class="admission-form">
+            <div class="admission-container08">
+              <div class="admission-container09">
+                <div class="admission-container10">
+                  <span class="admission-text">Title</span>
                   <text-input
-                    rootClassName="text-input-root-class-name21"
+                    rootClassName="text-input-root-class-name6"
+                  ></text-input>
+                </div>
+                <div class="admission-container11">
+                  <span class="admission-text01">Full Name</span>
+                  <text-input
+                    rootClassName="text-input-root-class-name8"
+                  ></text-input>
+                </div>
+                <div class="admission-container12">
+                  <span class="admission-text02">Gender</span>
+                  <select required class="admission-select">
+                    <option value="Male" selected>Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Option 1">Option 1</option>
+                    <option value="Other">Other</option>
+                    <option value="Option 2">Option 2</option>
+                    <option value="Option 3">Option 3</option>
+                  </select>
+                </div>
+                <div class="admission-container13">
+                  <span class="admission-text03">DOB</span>
+                  <div class="admission-container14">
+                    <div class="admission-container15">
+                      <input
+                        type="date"
+                        required
+                        placeholder
+                        class="admission-textinput input"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="admission-container16">
+                  <span class="admission-text04">Marital Status</span>
+                  <select required class="admission-select1">
+                    <option value="MARRIED" selected>Married</option>
+                    <option value="NOT_MARRIED">Not married</option>
+                    <option value="Option 1">Option 1</option>
+                    <option value="Option 2">Option 2</option>
+                    <option value="Option 3">Option 3</option>
+                  </select>
+                </div>
+                <div class="admission-container17">
+                  <span class="admission-text05">Contact Number</span>
+                  <div class="admission-container18">
+                    <input
+                      type="tel"
+                      required
+                      maxlength="15"
+                      placeholder
+                      class="admission-textinput1 input"
+                    />
+                  </div>
+                </div>
+                <div class="admission-container19">
+                  <span class="admission-text06">Address</span>
+                  <text-input
+                    rootClassName="text-input-root-class-name14"
+                  ></text-input>
+                </div>
+                <div class="admission-container20">
+                  <span class="admission-text07">Identity Number</span>
+                  <text-input
+                    rootClassName="text-input-root-class-name15"
                   ></text-input>
                 </div>
               </div>
-              <div class="admission-container16">
-                <span class="admission-text05">Marital Status</span>
-                <select class="admission-select">
-                  <option value="MARRIED" selected>Married</option>
-                  <option value="NOT_MARRIED">Not married</option>
-                  <option value="Option 1">Option 1</option>
-                  <option value="Option 2">Option 2</option>
-                  <option value="Option 3">Option 3</option>
-                </select>
-              </div>
-              <div class="admission-container17">
-                <span class="admission-text06">Contact Number</span>
-                <text-input
-                  rootClassName="text-input-root-class-name10"
-                ></text-input>
-              </div>
-              <div class="admission-container18">
-                <span class="admission-text07">Address</span>
-                <text-input
-                  rootClassName="text-input-root-class-name14"
-                ></text-input>
-              </div>
-              <div class="admission-container19">
-                <span class="admission-text08">Identity Number</span>
-                <text-input
-                  rootClassName="text-input-root-class-name15"
-                ></text-input>
-              </div>
-            </div>
-            <div class="admission-container20">
               <div class="admission-container21">
-                <span class="admission-text09">Guardian Name</span>
-                <text-input
-                  rootClassName="text-input-root-class-name7"
-                ></text-input>
-              </div>
-              <div class="admission-container22">
-                <span class="admission-text10">Guardian Contact Number</span>
-                <text-input
-                  rootClassName="text-input-root-class-name9"
-                ></text-input>
-              </div>
-              <div class="admission-container23">
-                <span class="admission-text11">Guardian Address</span>
-                <text-input
-                  rootClassName="text-input-root-class-name16"
-                ></text-input>
-              </div>
-              <div class="admission-container24">
-                <span class="admission-text12">
-                  Relationship to the patient
-                </span>
-                <text-input
-                  rootClassName="text-input-root-class-name17"
-                ></text-input>
-              </div>
-              <div class="admission-container25">
-                <span class="admission-text13">Admission Date</span>
+                <div class="admission-container22">
+                  <span class="admission-text08">Guardian Name</span>
+                  <text-input
+                    rootClassName="text-input-root-class-name7"
+                  ></text-input>
+                </div>
+                <div class="admission-container23">
+                  <span class="admission-text09">Guardian Contact Number</span>
+                  <div class="admission-container24">
+                    <input
+                      type="tel"
+                      required
+                      placeholder
+                      class="admission-textinput2 input"
+                    />
+                  </div>
+                </div>
+                <div class="admission-container25">
+                  <span class="admission-text10">Guardian Address</span>
+                  <text-input
+                    rootClassName="text-input-root-class-name16"
+                  ></text-input>
+                </div>
                 <div class="admission-container26">
-                  <svg viewBox="0 0 1024 1024" class="admission-icon2">
-                    <path
-                      d="M810.667 263.851v-7.851c0-70.699-57.301-128-128-128s-128 57.301-128 128h-85.333c0-70.699-57.301-128-128-128s-128 57.301-128 128v7.851c-49.536 17.707-85.333 64.597-85.333 120.149v384c0 70.571 57.429 128 128 128h512c70.571 0 128-57.429 128-128v-384c0-55.552-35.797-102.443-85.333-120.149zM640 256c0-23.552 19.072-42.667 42.667-42.667s42.667 19.115 42.667 42.667v85.333c0 23.552-19.072 42.667-42.667 42.667s-42.667-19.115-42.667-42.667v-85.333zM298.667 256c0-23.552 19.072-42.667 42.667-42.667s42.667 19.115 42.667 42.667v85.333c0 23.552-19.072 42.667-42.667 42.667s-42.667-19.115-42.667-42.667v-85.333zM810.667 768c0 23.509-19.115 42.667-42.667 42.667h-512c-23.552 0-42.667-19.157-42.667-42.667v-256h597.333v256z"
-                    ></path>
-                  </svg>
+                  <span class="admission-text11">
+                    Relationship to the patient
+                  </span>
                   <text-input
-                    rootClassName="text-input-root-class-name22"
+                    rootClassName="text-input-root-class-name17"
                   ></text-input>
                 </div>
-              </div>
-              <div class="admission-container27">
-                <span class="admission-text14">Admission Time</span>
-                <div class="admission-container28">
-                  <svg viewBox="0 0 1024 1024" class="admission-icon4">
-                    <path
-                      d="M658.744 749.256l-210.744-210.746v-282.51h128v229.49l173.256 173.254zM512 0c-282.77 0-512 229.23-512 512s229.23 512 512 512 512-229.23 512-512-229.23-512-512-512zM512 896c-212.078 0-384-171.922-384-384s171.922-384 384-384c212.078 0 384 171.922 384 384s-171.922 384-384 384z"
-                    ></path>
-                  </svg>
+                <div class="admission-container27">
+                  <span class="admission-text12">
+                    Admission Date &amp; Time
+                  </span>
+                  <div class="admission-container28">
+                    <div class="admission-container29">
+                      <input
+                        type="datetime-local"
+                        required
+                        placeholder
+                        class="admission-textinput3 input"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="admission-container30">
+                  <span class="admission-text13">Condition</span>
                   <text-input
-                    rootClassName="text-input-root-class-name11"
+                    rootClassName="text-input-root-class-name18"
                   ></text-input>
                 </div>
-              </div>
-              <div class="admission-container29">
-                <span class="admission-text15">Condition</span>
-                <text-input
-                  rootClassName="text-input-root-class-name18"
-                ></text-input>
-              </div>
-              <div class="admission-container30">
-                <span class="admission-text16">Team of Doctors</span>
-                <select class="admission-select1">
-                  <option value="TEAM_1" selected>Team 1</option>
-                  <option value="TEAM_2">Team 2</option>
-                </select>
+                <div class="admission-container31">
+                  <span class="admission-text14">Team of Doctors</span>
+                  <select required class="admission-select2">
+                    <option value="TEAM_1" selected>Team 1</option>
+                    <option value="TEAM_2">Team 2</option>
+                  </select>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="admission-container31">
-            <abstract-button
-              button="Clear Form"
-              rootClassName="abstract-button-root-class-name"
-            ></abstract-button>
-            <primary-button
-              button="Submit"
-              rootClassName="primary-button-root-class-name9"
-            ></primary-button>
-          </div>
+            <div class="admission-container32">
+              <abstract-button
+                button="Clear Form"
+                rootClassName="abstract-button-root-class-name"
+              ></abstract-button>
+              <primary-button
+                button="Submit"
+                rootClassName="primary-button-root-class-name9"
+              ></primary-button>
+            </div>
+          </form>
         </div>
       </div>
     </div>

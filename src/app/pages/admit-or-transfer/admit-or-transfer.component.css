@@ -161,6 +161,12 @@
   width: 100%;
   align-self: stretch;
 }
+.admit-or-transfer-form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
 .admit-or-transfer-container14 {
   width: 100%;
   display: flex;
@@ -258,11 +264,22 @@
   flex-direction: row;
   justify-content: center;
 }
-.admit-or-transfer-icon {
-  width: 24px;
-  height: 24px;
-}
 .admit-or-transfer-container23 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.admit-or-transfer-textinput {
+  width: 100%;
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.admit-or-transfer-container24 {
   width: 252px;
   display: flex;
   align-self: flex-end;

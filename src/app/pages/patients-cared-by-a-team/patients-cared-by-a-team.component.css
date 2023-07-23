@@ -1,0 +1,179 @@
+:host { 
+  display: contents; 
+}
+.patients-cared-by--team-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.patients-cared-by--team-container01 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.patients-cared-by--team-container02 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.patients-cared-by--team-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.patients-cared-by--team-container04 {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.patients-cared-by--team-container05 {
+  flex: 1;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.patients-cared-by--team-container06 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.patients-cared-by--team-container07 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.patients-cared-by--team-container08 {
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-secondary-2);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius2);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.patients-cared-by--team-navlink {
+  color: var(--dl-color-primary-1);
+  font-style: normal;
+  font-weight: 400;
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius2);
+  text-decoration: none;
+  background-color: transparent;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.patients-cared-by--team-navlink1 {
+  color: var(--dl-color-primary-1);
+  font-style: normal;
+  font-weight: 700;
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius2);
+  text-decoration: none;
+  background-color: var(--dl-color-secondary-2);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.patients-cared-by--team-container09 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+}
+.patients-cared-by--team-container10 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.patients-cared-by--team-text {
+  color: var(--dl-color-primary-1);
+  width: 100%;
+  text-align: right;
+}
+.patients-cared-by--team-text1 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.patients-cared-by--team-container11 {
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.patients-cared-by--team-button {
+  color: var(--dl-color-primary-2);
+  width: var(--dl-size-size-large);
+  font-size: 14px;
+  border-width: 0px;
+  background-color: var(--dl-color-primary-1);
+}
+.patients-cared-by--team-container12 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.patients-cared-by--team-container13 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.patients-cared-by--team-code-embed {
+  flex: 1;
+  width: 100%;
+  align-self: stretch;
+}
+@media(max-width: 991px) {
+  .patients-cared-by--team-container05 {
+    align-items: center;
+    flex-direction: column;
+  }
+}
