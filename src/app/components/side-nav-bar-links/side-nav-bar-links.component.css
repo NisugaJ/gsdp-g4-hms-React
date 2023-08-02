@@ -24,13 +24,9 @@
   position: relative;
 }
 .side-nav-bar-links-navlink {
-  color: var(--dl-color-gray-white);
   width: 100%;
   font-size: 18px;
   text-align: left;
-  border-color: var(--dl-color-secondary-2);
-  border-width: 1px;
-  border-radius: 8px;
   text-decoration: none;
 }
 .side-nav-bar-links-container3 {
