@@ -26,13 +26,12 @@
 .side-nav-bar-links-navlink {
   color: var(--dl-color-gray-white);
   width: 100%;
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
   border-color: var(--dl-color-secondary-2);
   border-width: 1px;
   border-radius: 8px;
   text-decoration: none;
-  background-color: var(--dl-color-secondary-2);
 }
 .side-nav-bar-links-container3 {
   gap: var(--dl-space-space-halfunit);
@@ -45,22 +44,16 @@
 .side-nav-bar-links-navlink01 {
   display: contents;
 }
-.side-nav-bar-links-component {
+.side-nav-bar-links-component01 {
   text-decoration: none;
 }
 .side-nav-bar-links-navlink02 {
   display: contents;
 }
-.side-nav-bar-links-component01 {
-  text-decoration: none;
-}
-.side-nav-bar-links-navlink03 {
-  display: contents;
-}
 .side-nav-bar-links-component02 {
   text-decoration: none;
 }
-.side-nav-bar-links-navlink04 {
+.side-nav-bar-links-navlink03 {
   display: contents;
 }
 .side-nav-bar-links-component03 {
@@ -74,19 +67,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.side-nav-bar-links-navlink05 {
-  display: contents;
-}
-.side-nav-bar-links-component04 {
-  text-decoration: none;
-}
-.side-nav-bar-links-navlink06 {
+.side-nav-bar-links-navlink04 {
   display: contents;
 }
 .side-nav-bar-links-component05 {
   text-decoration: none;
 }
-.side-nav-bar-links-navlink07 {
+.side-nav-bar-links-navlink05 {
   display: contents;
 }
 .side-nav-bar-links-component06 {
@@ -100,19 +87,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.side-nav-bar-links-navlink08 {
-  display: contents;
-}
-.side-nav-bar-links-component07 {
-  text-decoration: none;
-}
-.side-nav-bar-links-navlink09 {
+.side-nav-bar-links-navlink06 {
   display: contents;
 }
 .side-nav-bar-links-component08 {
   text-decoration: none;
 }
-.side-nav-bar-links-navlink10 {
+.side-nav-bar-links-navlink07 {
   display: contents;
 }
 .side-nav-bar-links-component09 {
@@ -126,13 +107,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.side-nav-bar-links-navlink11 {
+.side-nav-bar-links-navlink08 {
   display: contents;
 }
 .side-nav-bar-links-component11 {
   text-decoration: none;
 }
-.side-nav-bar-links-navlink12 {
+.side-nav-bar-links-navlink09 {
   display: contents;
 }
 .side-nav-bar-links-component12 {

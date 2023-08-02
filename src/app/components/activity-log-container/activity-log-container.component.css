@@ -1,0 +1,97 @@
+:host { 
+  display: contents; 
+}
+.activity-log-container-container {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.activity-log-container-container1 {
+  flex: 1;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.activity-log-container-container2 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.activity-log-container-text {
+  color: var(--dl-color-primary-1);
+  font-size: 28px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+.activity-log-container-container3 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+}
+.activity-log-container-container4 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.activity-log-container-image {
+  width: 100px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.activity-log-container-text3 {
+  line-height: 1.5;
+}
+.activity-log-container-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.activity-log-container-container6 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.activity-log-container-code-embed {
+  flex: 1;
+  width: 100%;
+  align-self: stretch;
+}
+@media(max-width: 991px) {
+  .activity-log-container-container1 {
+    align-items: center;
+    flex-direction: column;
+  }
+}

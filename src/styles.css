@@ -81,6 +81,13 @@
   display: flex !important;
   transform: translateX(0%) !important;
 }
+.selected-nav-btn {
+  background-color: var(--dl-color-secondary-2);
+}
+.nav-btn {
+  color: var(--dl-color-primary-1);
+  background-color: none;
+}
 .TitlesofPages {
   font-size: 30px;
   font-style: normal;

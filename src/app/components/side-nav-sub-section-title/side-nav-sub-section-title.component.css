@@ -1,0 +1,23 @@
+:host { 
+  display: contents; 
+}
+.side-nav-sub-section-title-container {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  padding: 2px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.side-nav-sub-section-title-text {
+  width: 100%;
+  font-size: 18px;
+  text-align: left;
+}
+.side-nav-sub-section-title-root-class-name {
+  align-self: center;
+}
+.side-nav-sub-section-title-root-class-name1 {
+  align-self: center;
+}
