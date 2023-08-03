@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser'
 import { ComponentsModule } from './components/components.module'
 import { AppComponent } from './app.component'
 
-const routes = [
+export const routes = [
   {
     path: 'wards',
     loadChildren: () =>
