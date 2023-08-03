@@ -48,14 +48,20 @@
 .button:hover {
   cursor: pointer;
 }
-.input {
+.input, select {
   color: var(--dl-color-gray-black);
   cursor: auto;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem !important;
+  margin-left: 0.5rem;
   border-color: var(--dl-color-gray-black);
   border-width: 1px;
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
+}
+
+select{
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
 }
 .textarea {
   color: var(--dl-color-gray-black);

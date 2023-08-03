@@ -419,6 +419,7 @@
   width: 252px;
   display: flex;
   align-self: flex-end;
+  padding: var(--dl-space-space-halfunit);
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;

@@ -106,7 +106,6 @@
   width: auto;
   height: auto;
   display: flex;
-  align-self: flex-start;
   align-items: center;
   flex-direction: row;
   justify-content: center;
@@ -170,7 +169,6 @@
 .admit-or-transfer-container14 {
   width: 100%;
   display: flex;
-  padding: var(--dl-space-space-halfunit);
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;
