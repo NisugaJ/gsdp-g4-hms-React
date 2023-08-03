@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core'
-import { Event, NavigationStart, Route, Router } from '@angular/router'
+import { Route, Router } from '@angular/router'
 import { routes } from 'src/app/app.module'
 
 @Component({
