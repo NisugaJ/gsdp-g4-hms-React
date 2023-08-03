@@ -22,7 +22,6 @@ export class SideNavBarLinks {
   // checks whether the current route url (pathname) is equal to given route name
   hasRoute(route: string): boolean{
     const has: boolean = this.router.url === '/' + route 
-    console.log('has '+this.router.url, has);
     return has;
   }
 }
