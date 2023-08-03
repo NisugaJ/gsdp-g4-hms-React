@@ -1,37 +1,43 @@
 <div class="side-nav-bar-links-container" [ngClass]="rootClassName">
-  <div class="side-nav-bar-links-container1">
-    <div class="side-nav-bar-links-container2">
+  <div class="side-nav-bar-links-container01">
+    <div class="side-nav-bar-links-container02 nav-link">
       <a
         routerLink="/dashboard"
-        class="side-nav-bar-links-navlink button selected-nav nav-btn-border nav-link"
+        class="side-nav-bar-links-navlink button selected-nav nav-btn-border"
       >
         {{ button }}
       </a>
     </div>
-    <div class="side-nav-bar-links-container3">
+    <div class="side-nav-bar-links-container03">
       <side-nav-sub-section-title
         button="Patients"
       ></side-nav-sub-section-title>
-      <a routerLink="/admission" class="side-nav-bar-links-navlink01">
-        <side-nav-sub-button
-          button="Admission/Discharge"
-          class="side-nav-bar-links-component01"
-        ></side-nav-sub-button>
-      </a>
-      <a routerLink="/admit-or-transfer" class="side-nav-bar-links-navlink02">
-        <side-nav-sub-button
-          button="Admit/Transfer"
-          class="side-nav-bar-links-component02"
-        ></side-nav-sub-button>
-      </a>
-      <a routerLink="/treatment-records" class="side-nav-bar-links-navlink03">
-        <side-nav-sub-button
-          button="Treatment Records"
-          class="side-nav-bar-links-component03"
-        ></side-nav-sub-button>
-      </a>
+      <div class="side-nav-bar-links-container04 nav-link">
+        <a routerLink="/admission" class="side-nav-bar-links-navlink01">
+          <side-nav-sub-button
+            button="Admission/Discharge"
+            class="side-nav-bar-links-component01"
+          ></side-nav-sub-button>
+        </a>
+      </div>
+      <div class="side-nav-bar-links-container05 nav-link">
+        <a routerLink="/admit-or-transfer" class="side-nav-bar-links-navlink02">
+          <side-nav-sub-button
+            button="Admit/Transfer"
+            class="side-nav-bar-links-component02"
+          ></side-nav-sub-button>
+        </a>
+      </div>
+      <div class="side-nav-bar-links-container06 nav-link">
+        <a routerLink="/treatment-records" class="side-nav-bar-links-navlink03">
+          <side-nav-sub-button
+            button="Treatment Records"
+            class="side-nav-bar-links-component03"
+          ></side-nav-sub-button>
+        </a>
+      </div>
     </div>
-    <div class="side-nav-bar-links-container4">
+    <div class="side-nav-bar-links-container07">
       <side-nav-sub-section-title
         button="Doctors"
         rootClassName="side-nav-sub-section-title-root-class-name1"
@@ -49,7 +55,7 @@
         ></side-nav-sub-button>
       </a>
     </div>
-    <div class="side-nav-bar-links-container5">
+    <div class="side-nav-bar-links-container08">
       <side-nav-sub-section-title button="Wards"></side-nav-sub-section-title>
       <a routerLink="/ward-types" class="side-nav-bar-links-navlink06">
         <side-nav-sub-button
@@ -64,7 +70,7 @@
         ></side-nav-sub-button>
       </a>
     </div>
-    <div class="side-nav-bar-links-container6">
+    <div class="side-nav-bar-links-container09">
       <side-nav-sub-section-title button="Admin"></side-nav-sub-section-title>
       <a routerLink="/activity-log" class="side-nav-bar-links-navlink08">
         <side-nav-sub-button

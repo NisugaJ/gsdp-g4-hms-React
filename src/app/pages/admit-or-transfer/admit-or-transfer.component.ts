@@ -7,7 +7,7 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['admit-or-transfer.component.css'],
 })
 export class AdmitOrTransfer {
-  rawv4kx: string = ' '
+  rawblu7: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Admit-or-Transfer - gsdp-g4-hms')
     this.meta.addTags([
