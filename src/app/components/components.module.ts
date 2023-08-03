@@ -14,6 +14,8 @@ import { SideNavSubSectionTitle } from './side-nav-sub-section-title/side-nav-su
 import { DashboardItem } from './dashboard-item/dashboard-item.component'
 import { LogoAndName } from './logo-and-name/logo-and-name.component'
 import { AbstractButton } from './abstract-button/abstract-button.component'
+import { AdmitOrTransferMainTable } from './admit-or-transfer-main-table/admit-or-transfer-main-table.component'
+import { PatientsMainTable } from './patients-main-table/patients-main-table.component'
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { AbstractButton } from './abstract-button/abstract-button.component'
     DashboardItem,
     LogoAndName,
     AbstractButton,
+    AdmitOrTransferMainTable,
+    PatientsMainTable,
   ],
   imports: [CommonModule, RouterModule],
   exports: [
@@ -44,6 +48,8 @@ import { AbstractButton } from './abstract-button/abstract-button.component'
     DashboardItem,
     LogoAndName,
     AbstractButton,
+    AdmitOrTransferMainTable,
+    PatientsMainTable,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

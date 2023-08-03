@@ -2,8 +2,8 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'
 import { RouterModule } from '@angular/router'
 import { BrowserModule } from '@angular/platform-browser'
 
-import { ComponentsModule } from './components/components.module'
 import { AppComponent } from './app.component'
+import { ComponentsModule } from './components/components.module'
 
 export const routes = [
   {
