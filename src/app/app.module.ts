@@ -3,7 +3,8 @@ import { RouterModule } from '@angular/router'
 import { BrowserModule } from '@angular/platform-browser'
 
 import { AppComponent } from './app.component'
-import { ComponentsModule } from './components/components.module'
+import { ComponentsModule } from './components/components.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 
 export const routes = [
   {
@@ -124,7 +125,7 @@ export const routes = [
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, RouterModule.forRoot(routes), ComponentsModule],
+  imports: [BrowserModule, RouterModule.forRoot(routes), ComponentsModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
