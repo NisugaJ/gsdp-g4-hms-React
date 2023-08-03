@@ -38,6 +38,7 @@
   justify-content: center;
 }
 .side-nav-bar-links-container04 {
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -50,6 +51,7 @@
   text-decoration: none;
 }
 .side-nav-bar-links-container05 {
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -62,6 +64,7 @@
   text-decoration: none;
 }
 .side-nav-bar-links-container06 {
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
