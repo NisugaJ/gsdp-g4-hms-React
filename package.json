@@ -17,7 +17,6 @@
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
-    "bootstrap": "^5.2.0",
     "core-js": "~3.0.1",
     "dangerous-html": "0.1.13",
     "rxjs": "~6.6.0",
