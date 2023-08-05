@@ -25,7 +25,6 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/@costlydeveloper/ngx-awesome-popup/styles/theme.css",
               "src/styles.css"
             ],
             "scripts": []
