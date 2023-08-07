@@ -170,10 +170,15 @@
                 button="Clear Form"
                 rootClassName="abstract-button-root-class-name"
               ></abstract-button>
-              <primary-button
-                button="Submit"
-                rootClassName="primary-button-root-class-name9"
-              ></primary-button>
+              <app-hms-modal
+                dialogTitle="Patient saved successfully"
+                openDialogBtnName="Submit"
+                closeDialogBtnName="Close"
+                >
+                Patient's registration number is 464165
+                <br/>
+                <br/>
+              </app-hms-modal>
             </div>
           </form>
         </div>
