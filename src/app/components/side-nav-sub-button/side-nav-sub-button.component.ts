@@ -10,6 +10,9 @@ export class SideNavSubButton {
   rootClassName: string = ''
   @Input()
   button: string = 'Button'
+  @Input()
+  isSelected: boolean = false
+  
   isVisible: boolean = false
   constructor() {}
 }

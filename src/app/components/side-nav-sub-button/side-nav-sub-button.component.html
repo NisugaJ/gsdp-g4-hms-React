@@ -2,6 +2,7 @@
   <button
     type="button"
     class="side-nav-sub-button-button button nav-btn nav-btn-border"
+    [ngClass]="{ selectedNav: isSelected == true }"
   >
     {{ button }}
   </button>

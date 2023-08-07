@@ -1,4 +1,6 @@
 import { Component, Input } from '@angular/core'
+import { Route, Router } from '@angular/router'
+import { routes } from 'src/app/app.module'
 
 @Component({
   selector: 'side-nav-bar-links',
@@ -12,5 +14,14 @@ export class SideNavBarLinks {
   button: string = 'Dashboard'
   @Input()
   rootClassName: string = ''
-  constructor() {}
+
+  routes: Route[] = routes;
+
+  constructor(private router: Router) {}
+
+  // checks whether the current route url (pathname) is equal to given route name
+  hasRoute(route: string): boolean{
+    const has: boolean = this.router.url === '/' + route 
+    return has;
+  }
 }

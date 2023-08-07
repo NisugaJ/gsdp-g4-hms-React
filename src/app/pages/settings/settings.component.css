@@ -81,10 +81,10 @@
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
-  flex-direction: column;
+  padding-left: var(--dl-space-space-sixunits);
   padding-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
   justify-content: flex-start;
 }
 .settings-form {
@@ -96,7 +96,6 @@
 .settings-container09 {
   width: 100%;
   display: flex;
-  padding: var(--dl-space-space-halfunit);
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;

@@ -34,44 +34,28 @@
             <div class="discharge-container10">
               <div class="discharge-container11">
                 <div class="discharge-code-embed">
-                  <dangerous-html
-                    html="
-<div class='hms-table-container'>
-  <table>
-<tbody>
-<tr>
-<th>Patient Name</th>
-<th>Registration No</th>
-<th>Ward No</th>
-<th>Admitted Date</th>
-<th>Assigned Team</th>
-</tr>
-
-<tr>
-<td>Smith Anderson</td>
-<td>2208940</td>
-<td>M - 03</td>
-<td>02.05.2023</td>
-<td>Team Code xx</td>
-</tr>
-
-</tbody>
-</table>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-"
-                  ></dangerous-html>
+                  <div class='hms-table-container'>
+                    <table>
+                      <tbody>
+                        <tr>
+                          <th>Patient Name</th>
+                          <th>Registration No</th>
+                          <th>Ward No</th>
+                          <th>Admitted Date</th>
+                          <th>Assigned Team</th>
+                        </tr>
+                  
+                        <tr>
+                          <td>Smith Anderson</td>
+                          <td>2208940</td>
+                          <td>M - 03</td>
+                          <td>02.05.2023</td>
+                          <td>Team Code xx</td>
+                        </tr>
+                  
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
@@ -81,10 +65,19 @@
               button="Clear Search"
               rootClassName="abstract-button-root-class-name1"
             ></abstract-button>
-            <primary-button
-              button="Discharge"
-              rootClassName="primary-button-root-class-name10"
-            ></primary-button>
+            <app-hms-modal 
+              id="patient-delete-permission-modal"
+              openDialogBtnName="Discharge"
+              closeDialogBtnName="Cancel"
+              dialogTitle="Authorization required"
+            >
+                This action will delete all the records of the selected patient from the system.<br/> Enter your password to continue this action.
+                <text-input textinput_placeholder1="Password"></text-input>
+                <primary-button
+                button="Continue"
+                rootClassName="primary-button-root-class-name10"
+              ></primary-button>
+            </app-hms-modal>
           </div>
         </div>
       </div>

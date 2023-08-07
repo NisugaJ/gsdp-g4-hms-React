@@ -48,15 +48,26 @@
 .button:hover {
   cursor: pointer;
 }
-.input {
+.input, select {
   color: var(--dl-color-gray-black);
   cursor: auto;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem !important;
+  margin-left: 0.5rem;
   border-color: var(--dl-color-gray-black);
   border-width: 1px;
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
+
+select{
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+
+input:focus{
+  outline: none;
+}
+
 .textarea {
   color: var(--dl-color-gray-black);
   cursor: auto;
@@ -81,17 +92,41 @@
   display: flex !important;
   transform: translateX(0%) !important;
 }
-.selected-nav {
-  color: var(--dl-color-gray-white);
-  background-color: var(--dl-color-secondary-2);
-}
-.nav-btn {
-  color: var(--dl-color-primary-1);
-}
+
 .nav-btn-border {
   border-color: var(--dl-color-secondary-2);
   border-width: 2px;
   border-radius: 8px;
+}
+
+dialog {
+  z-index: 10;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+
+dialog::backdrop {
+  background-color: rgba(142, 142, 142, 0.428)
+}
+
+app-hms-modal > button {
+  cursor: pointer;
+}
+
+app-hms-modal > dialog {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+app-hms-modal > dialog > button{
+  width:100%;
+  cursor: pointer;
+}
+
+app-hms-modal > dialog > h2 {
+  color: var(--dl-color-primary-1) 
 }
 
 .TitlesofPages {

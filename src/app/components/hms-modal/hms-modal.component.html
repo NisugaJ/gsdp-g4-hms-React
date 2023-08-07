@@ -1,0 +1,7 @@
+<dialog #dialog>
+    <h2>{{dialogTitle}}</h2>
+    <br/>
+    <ng-content></ng-content>
+    <button (click)="closeDialog()">{{closeDialogBtnName}}</button>
+</dialog>
+<primary-button (click)="openDialog()" button="{{openDialogBtnName}}"></primary-button>
