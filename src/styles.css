@@ -63,6 +63,11 @@ select{
   margin-top: var(--dl-space-space-halfunit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
+
+input:focus{
+  outline: none;
+}
+
 .textarea {
   color: var(--dl-color-gray-black);
   cursor: auto;
