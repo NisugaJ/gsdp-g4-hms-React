@@ -461,3 +461,8 @@
     flex-direction: column;
   }
 }
+
+.top-nav-bar-dropdown-toggle1:hover, .top-nav-bar-dropdown-toggle2:hover, .top-nav-bar-dropdown-toggle3:hover{
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-secondary-2);
+}
