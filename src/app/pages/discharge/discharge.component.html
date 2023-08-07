@@ -65,10 +65,18 @@
               button="Clear Search"
               rootClassName="abstract-button-root-class-name1"
             ></abstract-button>
-            <primary-button
-              button="Discharge"
-              rootClassName="primary-button-root-class-name10"
-            ></primary-button>
+            <app-hms-modal 
+              id="patient-delete-permission-modal"
+              openDialogBtnName="Discharge"
+              closeDialogBtnName="Cancel"
+            >
+                This action will delete all the records of the selected patients from the system. Enter your password to continue this action.
+                <text-input textinput_placeholder1="Password"></text-input>
+                <primary-button
+                button="Discharge"
+                rootClassName="primary-button-root-class-name10"
+              ></primary-button>
+            </app-hms-modal>
           </div>
         </div>
       </div>

@@ -94,6 +94,20 @@ select{
   border-radius: 8px;
 }
 
+dialog {
+  z-index: 10;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+
+dialog::backdrop {
+  background-color: rgba(142, 142, 142, 0.428)
+}
+
+app-hms-modal > button {
+  cursor: pointer;
+}
+
 .TitlesofPages {
   font-size: 30px;
   font-style: normal;
