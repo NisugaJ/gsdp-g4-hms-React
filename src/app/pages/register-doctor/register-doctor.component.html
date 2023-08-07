@@ -22,24 +22,23 @@
                   <span class="register-doctor-text01">Title</span>
                   <text-input
                     rootClassName="text-input-root-class-name55"
+                    textinput_placeholder1="Mr, Mr, Ms, ..."
                   ></text-input>
                 </div>
                 <div class="register-doctor-container11">
                   <span class="register-doctor-text02">Full Name</span>
                   <text-input
                     rootClassName="text-input-root-class-name56"
+                    textinput_placeholder1="Enter Full Name"
                   ></text-input>
                 </div>
                 <div class="register-doctor-container12">
                   <span class="register-doctor-text03">Doctor&apos;s ID</span>
-                  <div class="register-doctor-container13">
-                    <input
-                      type="number"
-                      required
-                      placeholder
-                      class="register-doctor-textinput input"
-                    />
-                  </div>
+                    <select required class="register-doctor-select">
+                      <option value="639724" selected>639724 - Annabel Park</option>
+                      <option value="833866">833866 - Amaya Hood</option>
+                      <option value="668526">668526 - Adison Taylor	</option>
+                    </select>
                 </div>
                 <div class="register-doctor-container14">
                   <span class="register-doctor-text04">Gender</span>
@@ -56,7 +55,6 @@
                       <input
                         type="date"
                         required
-                        placeholder
                         class="register-doctor-textinput1 input"
                       />
                     </div>
@@ -68,7 +66,7 @@
                     <input
                       type="tel"
                       required
-                      placeholder
+                      placeholder="Enter Contact Number"
                       class="register-doctor-textinput2 input"
                     />
                   </div>
@@ -88,11 +86,8 @@
                   <span class="register-doctor-text08">Specialization</span>
                   <select required class="register-doctor-select2">
                     <option value="Orthopedic" selected>Orthopedic</option>
-                    <option value="Option 1">Option 1</option>
                     <option value="Cardiology">Cardiology</option>
-                    <option value="Option 2">Option 2</option>
                     <option value="Maternity">Maternity</option>
-                    <option value="Option 3">Option 3</option>
                     <option value="Accident &amp; Emergency">
                       Accident &amp; Emergency
                     </option>
