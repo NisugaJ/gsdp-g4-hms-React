@@ -137,7 +137,7 @@
   text-decoration: none;
 }
 
-.nav-link.selectedNav {
+.nav-link.selectedNav, .nav-link:hover {
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-secondary-2);
 }
