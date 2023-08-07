@@ -113,6 +113,22 @@ app-hms-modal > button {
   cursor: pointer;
 }
 
+app-hms-modal > dialog {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+app-hms-modal > dialog > button{
+  width:100%;
+  cursor: pointer;
+}
+
+app-hms-modal > dialog > h2 {
+  color: var(--dl-color-primary-1) 
+}
+
 .TitlesofPages {
   font-size: 30px;
   font-style: normal;

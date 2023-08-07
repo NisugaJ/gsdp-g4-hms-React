@@ -9,20 +9,38 @@ export class HmsModal implements OnInit {
   @ViewChild('dialog') dialog: ElementRef;
 
   @Input() 
-  openDialogBtnName: string = ''
+  dialogTitle: string
 
   @Input() 
-  closeDialogBtnName: string = ''
+  openDialogBtnName: string
+
+  @Input() 
+  closeDialogBtnName: string
 
   ngOnInit(): void {}
 
   openDialog() {
+    // show the modal to the user
     this.dialog.nativeElement.showModal();
+
+    // start the event listener to detect when user selects the backdrop of the dialog.
+    this.dialog.nativeElement.addEventListener("click", e => {
+      const dialogDimensions = this.dialog.nativeElement.getBoundingClientRect()
+      if (
+        e.clientX < dialogDimensions.left ||
+        e.clientX > dialogDimensions.right ||
+        e.clientY < dialogDimensions.top ||
+        e.clientY > dialogDimensions.bottom
+      ) {
+        this.dialog.nativeElement.close()
+      }
+    })
   }
 
   closeDialog() {
     this.dialog.nativeElement.close();
   }
+  
   constructor() {}
 
 }
