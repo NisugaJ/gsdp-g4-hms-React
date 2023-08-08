@@ -10,5 +10,9 @@ export class TextInput {
   rootClassName: string = ''
   @Input()
   textinput_placeholder1: string = ''
+
+  @Input()
+  type: string = 'text'
+
   constructor() {}
 }
